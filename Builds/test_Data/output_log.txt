@@ -1,0 +1,592 @@
+Initialize engine version: 4.6.2f1 (bd99309c2ad7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 Ti OEM (ID=0x1189)
+    Vendor:   NVIDIA
+    VRAM:     1985 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.052 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 4.6.2f1 (bd99309c2ad7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 Ti OEM (ID=0x1189)
+    Vendor:   NVIDIA
+    VRAM:     1985 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\System.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/Nature/Tree Creator Leaves Optimized' - Pass '' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+Profiler is only supported with Pro License
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Profiler/ProfilerConnection.cpp Line: 218)
+
+OnStatusChanged: Connect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+Connected to NameServer.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1422)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1422)
+
+OnStatusChanged: EncryptionEstablished
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.<>c__DisplayClass6:<EnqueueStatusCallback>b__4()
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+OperationResponse 230: ReturnCode: 0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OnStatusChanged: Disconnect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.EnetPeer:Disconnect()
+ExitGames.Client.Photon.PhotonPeer:Disconnect()
+NetworkingPeer:DisconnectToReconnect() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:425)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1118)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+OnStatusChanged: Connect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+Connected to masterserver.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1443)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1443)
+
+OnStatusChanged: EncryptionEstablished
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.<>c__DisplayClass6:<EnqueueStatusCallback>b__4()
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+OnEvent: Event 226.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1634)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1634)
+
+OperationResponse 230: ReturnCode: 0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OperationResponse 229: ReturnCode: 0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OnEvent: Event 230.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1634)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1634)
+
+OperationResponse 226: ReturnCode: 0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OnStatusChanged: Disconnect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.EnetPeer:Disconnect()
+ExitGames.Client.Photon.PhotonPeer:Disconnect()
+NetworkingPeer:DisconnectToReconnect() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:429)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1243)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+OnStatusChanged: Connect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+Connected to gameserver.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1434)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1434)
+
+OnStatusChanged: EncryptionEstablished
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.<>c__DisplayClass6:<EnqueueStatusCallback>b__4()
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+OperationResponse 230: ReturnCode: 0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OperationResponse 226: ReturnCode: 0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OnEvent: Event 255.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1634)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1634)
+
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Luis\Dropbox\Unity\FPS\Builds\test_Data\Managed\System.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/Nature/Tree Creator Leaves Optimized' - Pass '' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+Profiler is only supported with Pro License
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Profiler/ProfilerConnection.cpp Line: 218)
+
+OnStatusChanged: Connect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+Connected to NameServer.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1422)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1422)
+
+OnStatusChanged: EncryptionEstablished
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.<>c__DisplayClass6:<EnqueueStatusCallback>b__4()
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+OperationResponse 230: ReturnCode: 0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OnStatusChanged: Disconnect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.EnetPeer:Disconnect()
+ExitGames.Client.Photon.PhotonPeer:Disconnect()
+NetworkingPeer:DisconnectToReconnect() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:425)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1118)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+OnStatusChanged: Connect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+Connected to masterserver.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1443)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1443)
+
+OnStatusChanged: EncryptionEstablished
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.<>c__DisplayClass6:<EnqueueStatusCallback>b__4()
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+OnEvent: Event 226.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1634)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1634)
+
+OperationResponse 230: ReturnCode: 0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OperationResponse 229: ReturnCode: 0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OnEvent: Event 230.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1634)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1634)
+
+OperationResponse 226: ReturnCode: 0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OnStatusChanged: Disconnect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.EnetPeer:Disconnect()
+ExitGames.Client.Photon.PhotonPeer:Disconnect()
+NetworkingPeer:DisconnectToReconnect() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:429)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1243)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+OnStatusChanged: Connect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+Connected to gameserver.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1434)
+ExitGames.Client.Photon.PeerBase:InitCallback()
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1434)
+
+OnStatusChanged: EncryptionEstablished
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.<>c__DisplayClass6:<EnqueueStatusCallback>b__4()
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+OperationResponse 230: ReturnCode: 0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OnEvent: Event 255.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1634)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCalOback(Beyte[])
+ExitGtmes.RClienst.Photon.EurnCoer:eisp0a
+UnityEongineommands()
+Exiug:ames.Client.g(IntP2,oton.PhotonPeer:ing, Object)
+UnitCoymands().
+PhotonHandler:Upd
+aetworkin C:\Users\LgPeer:OnOperanity\onRPe\Assets\Ppeotrn Unity Networking\Plugins\PhotonNertwork\PhotonHandler.cs:83o)o
+ 
+(ity ileNamtworking\Plugins\PhotonNetwork\NetworkingPeer.cs:1031)
+ENxitormks.nC/PlugiPns/PhoteonNetw:DrkeNetworkingMeeersa.cAsdCLallbac6k(By
+t
+e[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1031)
+
+OnEvent: Event 255.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1634)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1634)
+
+OnStatusChanged: Disconnect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.EnetPeer:Disconnect()
+ExitGames.Client.Photon.PhotonPeer:Disconnect()
+NetworkingPeer:Disconnect() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:409)
+PhotonNetwork:Disconnect() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:1301)
+PhotonHandler:OnApplicationQuit() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:56)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+OnEvent: Event 254.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1634)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1634)
+
+HandleEventLeave for player ID: 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:HandleEventLeave(Int32) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:653)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1799)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:83)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 653)
+
+Waiting for finish
+OnStatusChanged: Disconnect
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkingPeer:OnStatusChanged(StatusCode) (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1414)
+ExitGames.Client.Photon.EnetPeer:Disconnect()
+ExitGames.Client.Photon.PhotonPeer:Disconnect()
+NetworkingPeer:Disconnect() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:409)
+PhotonNetwork:Disconnect() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:1301)
+PhotonHandler:OnApplicationQuit() (at C:\Users\Luis\Dropbox\Unity\FPS\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:56)
+ 
+(Filename: C:/Users/Luis/Dropbox/Unity/FPS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 1414)
+
+Waiting for finish
