@@ -4,13 +4,16 @@ using System.Collections;
 
 public class Shooting : MonoBehaviour
 {
-	public GameObject manager;
+	private GameObject manager;
 
-	public GameObject ammoText;
-	public GameObject clipText;
-	public GameObject gunImpactSmoke;
-	public GameObject muzzleFlash;
+	private GameObject ammoText;
+	private GameObject clipText;
+
+	private GameObject gunImpactSmoke;
+	private GameObject muzzleFlash;
+
 	public GameObject player;
+
 	public float attackInterval = 0.58f;
 	public float reloadSpeed = 1.0f;
 	public int clipSize = 6;
@@ -28,6 +31,11 @@ public class Shooting : MonoBehaviour
 
 	void Awake ()
 	{
+		manager = GameObject.Find ("Network Manager");
+		clipText = GameObject.Find ("Canvas/Clip_Text");
+		ammoText = GameObject.Find ("Canvas/Ammo_Text");
+		gunImpactSmoke = GameObject.Find ("Particle Systems/Gun Impact Smoke");
+		muzzleFlash = GameObject.Find ("Muzzle Flash");
 	}
 
 	// Use this for initialization

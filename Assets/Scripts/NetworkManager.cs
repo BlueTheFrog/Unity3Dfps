@@ -7,12 +7,15 @@ public class NetworkManager : MonoBehaviour
 
 	public Text connectionText;
 
+	private Vector3 spawnPos = new Vector3 (90.1f, 1.2f, 67.7f);
+	private Quaternion spawnRot = new Quaternion (0f, 1f, 0f, -0.1f);
+
 	// Use this for initialization
 	void Start () 
 	{
 		Screen.showCursor = true;
 		PhotonNetwork.logLevel = PhotonLogLevel.Full;
-		PhotonNetwork.ConnectUsingSettings ("0.2");
+		PhotonNetwork.ConnectUsingSettings ("0.1");
 	}
 	
 	// Update is called once per frame
@@ -32,6 +35,12 @@ public class NetworkManager : MonoBehaviour
 
 	void OnJoinedLobby ()
 	{
-		RoomOptions ro = new RoomOptions (){isVisible = true, maxPlayers = 10};PhotonNetwork.JoinRoom ("Default"); //, ro, TypedLobby.Default);
+		RoomOptions ro = new RoomOptions (){isVisible = true, maxPlayers = 10};
+		PhotonNetwork.JoinOrCreateRoom ("Default", ro, TypedLobby.Default);
+	}
+
+	void OnJoinedRoom ()
+	{
+		PhotonNetwork.Instantiate ("FirstPersonCharacterController", spawnPos, spawnRot, 0);
 	}
 }
