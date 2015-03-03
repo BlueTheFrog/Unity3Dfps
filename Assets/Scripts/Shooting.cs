@@ -53,6 +53,10 @@ public class Shooting : MonoBehaviour
 	void Update () 
 	{
 		Shoot();
+		if (Input.GetKeyDown("p"))
+		{
+			PhotonNetwork.Destroy (player);
+		}
 	}
 	
 	void Shoot ()
@@ -121,9 +125,9 @@ public class Shooting : MonoBehaviour
 			{
 				gunImpactSmoke.transform.position = hit.point;
 				gunImpactSmoke.GetComponent<ParticleSystem>().Play();
-				if (hit.transform.tag == "Enemy")
+				if (hit.transform.tag == "Player")
 				{
-					Destroy (hit.transform.gameObject);
+					PhotonNetwork.Destroy (hit.transform.gameObject);
 				}
 			}  
 		}
