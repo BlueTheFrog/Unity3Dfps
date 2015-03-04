@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Shooting : MonoBehaviour
 {
-	private GameObject manager;
+	private PlayerNetworkManager pManager;
 
 	private GameObject ammoText;
 	private GameObject clipText;
@@ -31,7 +31,7 @@ public class Shooting : MonoBehaviour
 
 	void Awake ()
 	{
-		manager = GameObject.Find ("Network Manager");
+		pManager = player.GetComponent<PlayerNetworkManager> ();
 		clipText = GameObject.Find ("Canvas/Clip_Text");
 		ammoText = GameObject.Find ("Canvas/Ammo_Text");
 		gunImpactSmoke = GameObject.Find ("Particle Systems/Gun Impact Smoke");
@@ -120,14 +120,16 @@ public class Shooting : MonoBehaviour
 				timerIsOn = true;
 				timer2 = attackInterval;
 			}
+			int layerMask = 1 << 10;
+			layerMask = ~layerMask;
 			RaycastHit hit;
-			if(Physics.Raycast(transform.position, transform.forward, out hit, 1000.0f))
+			if(Physics.Raycast(transform.position, transform.forward, out hit, 1000.0f, layerMask))
 			{
 				gunImpactSmoke.transform.position = hit.point;
 				gunImpactSmoke.GetComponent<ParticleSystem>().Play();
 				if (hit.transform.tag == "Player")
 				{
-					PhotonNetwork.Destroy (hit.transform.gameObject);
+					hit.transform.gameObject.GetComponent<PlayerNetworkManager>().isDead = true;
 				}
 			}  
 		}

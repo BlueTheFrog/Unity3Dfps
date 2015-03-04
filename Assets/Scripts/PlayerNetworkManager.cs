@@ -4,6 +4,9 @@ using System.Collections;
 public class PlayerNetworkManager : Photon.MonoBehaviour
 {
 
+	public GameObject player;
+	public bool isDead;
+
 	public float smoothing;
 
 	public GameObject mainCam;
@@ -23,6 +26,7 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 		if (photonView.isMine)
 		{
 			GetComponent<UnitySampleAssets.Characters.FirstPerson.FirstPersonController>().enabled = true;
+			GetComponentInChildren<Shooting>().enabled = true;
 			foreach(Camera cam in GetComponentsInChildren<Camera>()) cam.enabled = true;
 		}
 		else
