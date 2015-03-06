@@ -18,7 +18,10 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-			
+		if (isDead)
+		{
+			player.SetActive(false);
+		}			
 	}
 
 	void Start ()

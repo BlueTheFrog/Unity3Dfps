@@ -1,0 +1,9 @@
+LAN multiplayer kind of works. All you see is a pair of arms flying around and you can't kill anyone.
+You can move around.
+You can shoot but there is no animation for the arms yet and it doesn't do anything. All you see is a smoke particle showing where it hit and a flash coming out of the muzzle.
+There is a house made of cheese.
+
+Feature = Bugs;
+
+Feature: Killing players crashes their game.
+Feature: You can shoot and kill yourself by aiming down.

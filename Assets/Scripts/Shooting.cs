@@ -53,10 +53,6 @@ public class Shooting : MonoBehaviour
 	void Update () 
 	{
 		Shoot();
-		if (Input.GetKeyDown("p"))
-		{
-			PhotonNetwork.Destroy (player);
-		}
 	}
 	
 	void Shoot ()
@@ -123,7 +119,7 @@ public class Shooting : MonoBehaviour
 			int layerMask = 1 << 10;
 			layerMask = ~layerMask;
 			RaycastHit hit;
-			if(Physics.Raycast(transform.position, transform.forward, out hit, 1000.0f, layerMask))
+			if(Physics.Raycast(transform.position, transform.forward, out hit, 1000.0f))
 			{
 				gunImpactSmoke.transform.position = hit.point;
 				gunImpactSmoke.GetComponent<ParticleSystem>().Play();

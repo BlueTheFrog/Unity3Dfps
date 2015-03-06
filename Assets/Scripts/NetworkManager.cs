@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -13,7 +13,7 @@ public class NetworkManager : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		Screen.showCursor = true;
+		Screen.showCursor = false;
 		PhotonNetwork.logLevel = PhotonLogLevel.Full;
 		PhotonNetwork.ConnectUsingSettings ("0.1");
 	}
@@ -35,7 +35,7 @@ public class NetworkManager : MonoBehaviour
 
 	void OnJoinedLobby ()
 	{
-		RoomOptions ro = new RoomOptions (){isVisible = true, maxPlayers = 10};
+		RoomOptions ro = new RoomOptions (){isVisible = true, maxPlayers = 20};
 		PhotonNetwork.JoinOrCreateRoom ("Default", ro, TypedLobby.Default);
 	}
 

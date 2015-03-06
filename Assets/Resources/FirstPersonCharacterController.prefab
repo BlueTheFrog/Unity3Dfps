@@ -1529,7 +1529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad13a876d08ea94e9c669186456a839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 152102}
   isDead: 0
   smoothing: 10
   mainCam: {fileID: 152026}
