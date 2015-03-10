@@ -146,6 +146,7 @@
      <Compile Include="Assets\SampleAssets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\SampleAssets\Utility\WaypointProgressTracker.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\FramesPerSecond.cs" />
      <Compile Include="Assets\Scripts\NetworkManager.cs" />
      <Compile Include="Assets\Scripts\PlayerNetworkManager.cs" />
      <Compile Include="Assets\Scripts\Shooting.cs" />
@@ -162,7 +163,7 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Luis/Dropbox/Unity/Unity3Dfps/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/Luis/Documents/GitHub/Unity3Dfps/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
