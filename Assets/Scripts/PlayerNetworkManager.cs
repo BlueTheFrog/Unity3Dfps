@@ -10,18 +10,29 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 	public float smoothing;
 
 	public GameObject mainCam;
+	public GameObject respawnCam;
 
 	private Vector3 nextPos;
 	private Quaternion nextRot;
 	private Quaternion camRot;
 
+	void Awake ()
+	{
+
+	}
+
 	// Update is called once per frame
 	void Update ()
+	{
+		Respawn ();			
+	}
+
+	void Respawn ()
 	{
 		if (isDead)
 		{
 			player.SetActive(false);
-		}			
+		}
 	}
 
 	void Start ()

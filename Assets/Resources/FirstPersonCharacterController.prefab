@@ -1533,6 +1533,7 @@ MonoBehaviour:
   isDead: 0
   smoothing: 10
   mainCam: {fileID: 152026}
+  respawnCam: {fileID: 0}
 --- !u!114 &11418224
 MonoBehaviour:
   m_ObjectHideFlags: 1

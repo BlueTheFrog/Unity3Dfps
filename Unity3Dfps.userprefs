@@ -1,10 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NetworkManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Platformer\Dead.cs">
     <Files>
-      <File FileName="Assets\Scripts\NetworkManager.cs" Line="46" Column="2" />
-      <File FileName="Assets\Scripts\PlayerNetworkManager.cs" Line="23" Column="28" />
-      <File FileName="Assets\Scripts\Shooting.cs" Line="55" Column="11" />
+      <File FileName="Assets\Scripts\Platformer\FollowCam.cs" Line="18" Column="100" />
+      <File FileName="Assets\Scripts\Platformer\Dead.cs" Line="28" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
