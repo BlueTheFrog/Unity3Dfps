@@ -10,7 +10,7 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 	public float smoothing;
 
 	public GameObject mainCam;
-	public GameObject respawnCam;
+	private GameObject respawnCam;
 
 	private Vector3 nextPos;
 	private Quaternion nextRot;
@@ -18,7 +18,8 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 
 	void Awake ()
 	{
-
+		respawnCam = GameObject.Find("/Respawn Camera");
+		respawnCam.SetActive (false);
 	}
 
 	// Update is called once per frame
@@ -32,6 +33,7 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 		if (isDead)
 		{
 			player.SetActive(false);
+			respawnCam.SetActive(true);
 		}
 	}
 

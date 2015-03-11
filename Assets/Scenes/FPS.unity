@@ -1273,7 +1273,7 @@ RectTransform:
   - {fileID: 1033361453}
   - {fileID: 240021700}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -2129,7 +2129,7 @@ Transform:
   - {fileID: 1064010181}
   - {fileID: 1947300519}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1 &277792726
 GameObject:
   m_ObjectHideFlags: 0
@@ -4644,90 +4644,6 @@ Transform:
   - {fileID: 484566845}
   m_Father: {fileID: 195394837}
   m_RootOrder: 2
---- !u!1 &599073671
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 599073676}
-  - 20: {fileID: 599073675}
-  - 124: {fileID: 599073674}
-  - 92: {fileID: 599073673}
-  - 81: {fileID: 599073672}
-  m_Layer: 0
-  m_Name: Respawn Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &599073672
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 599073671}
-  m_Enabled: 0
---- !u!92 &599073673
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 599073671}
-  m_Enabled: 0
---- !u!124 &599073674
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 599073671}
-  m_Enabled: 0
---- !u!20 &599073675
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 599073671}
-  m_Enabled: 0
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: .300000012
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_HDR: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: .0219999999
---- !u!4 &599073676
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 599073671}
-  m_LocalRotation: {x: 1.42914782e-08, y: .945041299, z: -.326950938, w: -4.13090753e-08}
-  m_LocalPosition: {x: 95.8000031, y: 44.2000008, z: 163.600006}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
 --- !u!1 &599661209
 GameObject:
   m_ObjectHideFlags: 0
@@ -5077,7 +4993,7 @@ Transform:
   - {fileID: 1524163094}
   - {fileID: 1731903513}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1 &631981991
 GameObject:
   m_ObjectHideFlags: 0
@@ -6970,7 +6886,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!1 &828119650
 GameObject:
   m_ObjectHideFlags: 0
@@ -7886,7 +7802,7 @@ Transform:
   - {fileID: 726568629}
   - {fileID: 1632679853}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &1011470318
 GameObject:
   m_ObjectHideFlags: 0
@@ -9724,6 +9640,90 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1743583311}
   m_RootOrder: 2
+--- !u!1 &1258823776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1258823781}
+  - 20: {fileID: 1258823780}
+  - 124: {fileID: 1258823779}
+  - 92: {fileID: 1258823778}
+  - 81: {fileID: 1258823777}
+  m_Layer: 0
+  m_Name: Respawn Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1258823777
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1258823776}
+  m_Enabled: 0
+--- !u!92 &1258823778
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1258823776}
+  m_Enabled: 0
+--- !u!124 &1258823779
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1258823776}
+  m_Enabled: 0
+--- !u!20 &1258823780
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1258823776}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+--- !u!4 &1258823781
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1258823776}
+  m_LocalRotation: {x: 1.26802844e-08, y: .945041358, z: -.326950997, w: -4.40435777e-08}
+  m_LocalPosition: {x: 95.8000031, y: 44.2000008, z: 163.600098}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
 --- !u!1 &1260197058
 GameObject:
   m_ObjectHideFlags: 0
@@ -10249,7 +10249,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1 &1320812013
 GameObject:
   m_ObjectHideFlags: 0
@@ -10821,7 +10821,7 @@ Transform:
   - {fileID: 1877512313}
   - {fileID: 1502684039}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!1 &1389289903
 GameObject:
   m_ObjectHideFlags: 0
