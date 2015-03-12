@@ -52,6 +52,17 @@ public class Shooting : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		if(Input.GetMouseButton(1))
+		{
+			RaycastHit hit;
+			if(Physics.Raycast(transform.position, transform.forward, out hit, 1000.0f))
+			{
+				if (hit.transform.name == "Arcade Machine")
+				{
+					Application.LoadLevel("Platformer");
+				}
+			}
+		}
 		Shoot();
 	}
 	

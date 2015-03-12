@@ -69,12 +69,14 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 			stream.SendNext(transform.position);
 			stream.SendNext(transform.rotation);
 			stream.SendNext(mainCam.transform.rotation);
+			stream.SendNext(GetComponent<PlayerNetworkManager>().isDead);
 		}
 		else if (stream.isReading)
 		{
 			nextPos = (Vector3)stream.ReceiveNext();
 			nextRot = (Quaternion)stream.ReceiveNext();
 			camRot = (Quaternion)stream.ReceiveNext();
+			isDead = (bool)stream.ReceiveNext();
 		}
 	}
 }
