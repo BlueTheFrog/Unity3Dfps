@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Shooting : MonoBehaviour
 {
-	private PlayerNetworkManager pManager;
+	//private PlayerNetworkManager pManager;
 
 	private GameObject ammoText;
 	private GameObject clipText;
@@ -31,7 +31,7 @@ public class Shooting : MonoBehaviour
 
 	void Awake ()
 	{
-		pManager = player.GetComponent<PlayerNetworkManager> ();
+		//pManager = player.GetComponent<PlayerNetworkManager> ();
 		clipText = GameObject.Find ("Canvas/Clip_Text");
 		ammoText = GameObject.Find ("Canvas/Ammo_Text");
 		gunImpactSmoke = GameObject.Find ("Particle Systems/Gun Impact Smoke");

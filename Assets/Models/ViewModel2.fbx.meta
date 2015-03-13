@@ -107,6 +107,7 @@ ModelImporter:
     3300000: pCube1
     4300000: char_ethan_body
     4300002: pCube1
+    7400000: Take 001
     9500000: //RootNode
     13700000: char_ethan_body
   materials:
@@ -124,7 +125,133 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_ethan_body
+        weight: 1
+      - path: char_ethan_Root
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandIndex1
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandIndex1/char_ethan_LeftHandIndex2
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandIndex1/char_ethan_LeftHandIndex2/char_ethan_LeftHandIndex3
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandIndex1/char_ethan_LeftHandIndex2/char_ethan_LeftHandIndex3/char_ethan_LeftHandIndex4
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandMiddle1
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandMiddle1/char_ethan_LeftHandMiddle2
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandMiddle1/char_ethan_LeftHandMiddle2/char_ethan_LeftHandMiddle3
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandMiddle1/char_ethan_LeftHandMiddle2/char_ethan_LeftHandMiddle3/char_ethan_LeftHandMiddle4
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandPinky1
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandPinky1/char_ethan_LeftHandPinky2
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandPinky1/char_ethan_LeftHandPinky2/char_ethan_LeftHandPinky3
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandPinky1/char_ethan_LeftHandPinky2/char_ethan_LeftHandPinky3/char_ethan_LeftHandPinky4
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandRing1
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandRing1/char_ethan_LeftHandRing2
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandRing1/char_ethan_LeftHandRing2/char_ethan_LeftHandRing3
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandRing1/char_ethan_LeftHandRing2/char_ethan_LeftHandRing3/char_ethan_LeftHandRing4
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandThumb1
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandThumb1/char_ethan_LeftHandThumb2
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandThumb1/char_ethan_LeftHandThumb2/char_ethan_LeftHandThumb3
+        weight: 1
+      - path: char_ethan_Root/char_ethan_LeftArm/char_ethan_LeftForeArm/char_ethan_LeftHand/char_ethan_LeftHandThumb1/char_ethan_LeftHandThumb2/char_ethan_LeftHandThumb3/char_ethan_LeftHandThumb4
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandIndex1
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandIndex1/char_ethan_RightHandIndex2
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandIndex1/char_ethan_RightHandIndex2/char_ethan_RightHandIndex3
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandIndex1/char_ethan_RightHandIndex2/char_ethan_RightHandIndex3/char_ethan_RightHandIndex4
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandMiddle1
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandMiddle1/char_ethan_RightHandMiddle2
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandMiddle1/char_ethan_RightHandMiddle2/char_ethan_RightHandMiddle3
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandMiddle1/char_ethan_RightHandMiddle2/char_ethan_RightHandMiddle3/char_ethan_RightHandMiddle4
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandPinky1
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandPinky1/char_ethan_RightHandPinky2
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandPinky1/char_ethan_RightHandPinky2/char_ethan_RightHandPinky3
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandPinky1/char_ethan_RightHandPinky2/char_ethan_RightHandPinky3/char_ethan_RightHandPinky4
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandRing1
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandRing1/char_ethan_RightHandRing2
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandRing1/char_ethan_RightHandRing2/char_ethan_RightHandRing3
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandRing1/char_ethan_RightHandRing2/char_ethan_RightHandRing3/char_ethan_RightHandRing4
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandThumb1
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandThumb1/char_ethan_RightHandThumb2
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandThumb1/char_ethan_RightHandThumb2/char_ethan_RightHandThumb3
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/char_ethan_RightHandThumb1/char_ethan_RightHandThumb2/char_ethan_RightHandThumb3/char_ethan_RightHandThumb4
+        weight: 1
+      - path: char_ethan_Root/char_ethan_RightArm/char_ethan_RightForeArm/char_ethan_RightHand/pCube1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
