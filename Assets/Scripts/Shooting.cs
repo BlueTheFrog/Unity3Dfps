@@ -29,6 +29,8 @@ public class Shooting : MonoBehaviour
 	private Text clipText2;
 	private Text ammoText2;
 
+	private Animator anim;
+
 	void Awake ()
 	{
 		//pManager = player.GetComponent<PlayerNetworkManager> ();
@@ -36,6 +38,7 @@ public class Shooting : MonoBehaviour
 		ammoText = GameObject.Find ("Canvas/Ammo_Text");
 		gunImpactSmoke = GameObject.Find ("Particle Systems/Gun Impact Smoke");
 		muzzleFlash = GameObject.Find ("Muzzle Flash");
+		anim = player.GetComponentInChildren<Animator> ();
 	}
 
 	// Use this for initialization
@@ -55,7 +58,7 @@ public class Shooting : MonoBehaviour
 		if(Input.GetMouseButton(1))
 		{
 			RaycastHit hit;
-			if(Physics.Raycast(transform.position, transform.forward, out hit, 1000.0f))
+			if(Physics.Raycast(transform.position, transform.forward, out hit, 2.0f))
 			{
 				if (hit.transform.name == "Arcade Machine")
 				{
@@ -71,6 +74,7 @@ public class Shooting : MonoBehaviour
 		// Delay between shots or reloading
 		if (timerIsOn)
 		{
+			anim.SetBool("isFiring", false);
 			timer2 -= Time.deltaTime;
 			if (timer2 <= 0)
 			{
@@ -119,6 +123,7 @@ public class Shooting : MonoBehaviour
 		// Shooting
 		if(Input.GetMouseButton(0) && timerIsOn == false && clip > 0 && isManualReload == false)
 		{
+			anim.SetBool("isFiring", true);
 			clip -= 1;
 			clipText2.text = clip.ToString();
 			muzzleFlash.GetComponent<ParticleSystem>().Play();
