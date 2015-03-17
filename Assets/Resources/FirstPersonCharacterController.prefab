@@ -1767,6 +1767,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 152102}
+  cam: {fileID: 2052108}
+  viewCam: {fileID: 152096}
   attackInterval: .579999983
   reloadSpeed: 1.15999997
   clipSize: 6

@@ -13,6 +13,9 @@ public class Shooting : MonoBehaviour
 	private GameObject muzzleFlash;
 
 	public GameObject player;
+	public Camera camC;
+	public GameObject camG;
+	public GameObject viewCam;
 
 	public float attackInterval = 0.58f;
 	public float reloadSpeed = 1.0f;
@@ -55,8 +58,18 @@ public class Shooting : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		if(Input.GetMouseButton(1))
+		if(Input.GetMouseButtonDown(1))
 		{
+			if (camC.fieldOfView == 60)
+			{
+			    camC.fieldOfView = 20;
+				viewCam.SetActive(false);
+			}
+			else if (camC.fieldOfView == 20)
+			{
+				camC.fieldOfView = 60;
+				viewCam.SetActive(true);
+			}
 			RaycastHit hit;
 			if(Physics.Raycast(transform.position, transform.forward, out hit, 2.0f))
 			{
