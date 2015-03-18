@@ -1,10 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Shooting.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SampleAssets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs">
     <Files>
-      <File FileName="Assets\Scripts\Shooting.cs" Line="17" Column="25" />
+      <File FileName="Assets\Scripts\Shooting.cs" Line="67" Column="7" />
       <File FileName="Assets\Scripts\NetworkManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Pinball\MovePlatform.cs" Line="23" Column="30" />
+      <File FileName="Assets\Scripts\Pinball\MovePlatform.cs" Line="1" Column="1" />
+      <File FileName="Assets\SampleAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="9" Column="39" />
+      <File FileName="Assets\SampleAssets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" Line="8" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

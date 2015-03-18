@@ -64,6 +64,7 @@ public class Shooting : MonoBehaviour
 			{
 			    camC.fieldOfView = 20;
 				viewCam.SetActive(false);
+				//player.GetComponent<UnitySampleAssets.Characters.FirstPerson.MouseLook>().XSensitivity = 1f;
 			}
 			else if (camC.fieldOfView == 20)
 			{

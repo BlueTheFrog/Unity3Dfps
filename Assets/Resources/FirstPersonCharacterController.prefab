@@ -1767,7 +1767,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 152102}
-  cam: {fileID: 2052108}
+  camC: {fileID: 2052108}
+  camG: {fileID: 152026}
   viewCam: {fileID: 152096}
   attackInterval: .579999983
   reloadSpeed: 1.15999997
@@ -1791,15 +1792,7 @@ MonoBehaviour:
   jumpSpeed: 15
   stickToGroundForce: 10
   _gravityMultiplier: .125
-  _mouseLook:
-    XSensitivity: 8
-    YSensitivity: 8
-    MinimumX: -360
-    MaximumX: 360
-    MinimumY: -90
-    MaximumY: 90
-    smooth: 0
-    smoothtime: 0
+  _mouseLook: {fileID: 0}
   useFOVKick: 1
   _fovKick:
     Camera: {fileID: 0}
