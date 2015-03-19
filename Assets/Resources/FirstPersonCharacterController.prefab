@@ -1792,7 +1792,15 @@ MonoBehaviour:
   jumpSpeed: 15
   stickToGroundForce: 10
   _gravityMultiplier: .125
-  _mouseLook: {fileID: 0}
+  _mouseLook:
+    XSensitivity: 15
+    YSensitivity: 15
+    MinimumX: -360
+    MaximumX: 360
+    MinimumY: -90
+    MaximumY: 90
+    smooth: 0
+    smoothtime: 0
   useFOVKick: 1
   _fovKick:
     Camera: {fileID: 0}
