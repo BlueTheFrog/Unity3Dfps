@@ -3,9 +3,11 @@ using System.Collections;
 
 public class PlayerNetworkManager : Photon.MonoBehaviour
 {
+	public delegate void Respawn(float time);
+	public event Respawn RespawnMe;	
 
 	public GameObject player;
-	public bool isDead;
+	public int health = 100;
 
 	public float smoothing;
 
@@ -25,17 +27,8 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		Respawn ();			
 	}
 
-	void Respawn ()
-	{
-		if (isDead)
-		{
-			player.SetActive(false);
-			respawnCam.SetActive(true);
-		}
-	}
 
 	void Start ()
 	{
@@ -43,7 +36,10 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 		{
 			GetComponent<UnitySampleAssets.Characters.FirstPerson.FirstPersonController>().enabled = true;
 			GetComponentInChildren<Shooting>().enabled = true;
-			foreach(Camera cam in GetComponentsInChildren<Camera>()) cam.enabled = true;
+			foreach(Camera cam in GetComponentsInChildren<Camera>())
+			{
+				cam.enabled = true;
+			}
 		}
 		else
 		{
@@ -69,14 +65,28 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 			stream.SendNext(transform.position);
 			stream.SendNext(transform.rotation);
 			stream.SendNext(mainCam.transform.rotation);
-			stream.SendNext(GetComponent<PlayerNetworkManager>().isDead);
 		}
 		else if (stream.isReading)
 		{
 			nextPos = (Vector3)stream.ReceiveNext();
 			nextRot = (Quaternion)stream.ReceiveNext();
 			camRot = (Quaternion)stream.ReceiveNext();
-			isDead = (bool)stream.ReceiveNext();
+		}
+	}
+
+	[RPC]
+	public void DamageDelt (int damage)
+	{
+		health -= damage;
+		if (health <= 0 && photonView.isMine)
+		{
+			Debug.Log(RespawnMe);
+			if (RespawnMe != null)
+			{
+				RespawnMe(5f);
+				Debug.Log("hi");
+			}
+			PhotonNetwork.Destroy (gameObject);
 		}
 	}
 }

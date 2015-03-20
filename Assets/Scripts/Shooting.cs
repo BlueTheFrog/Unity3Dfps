@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Shooting : MonoBehaviour
 {
-	//private PlayerNetworkManager pManager;
+	public int damage = 25;
 
 	private GameObject ammoText;
 	private GameObject clipText;
@@ -155,7 +155,7 @@ public class Shooting : MonoBehaviour
 				gunImpactSmoke.GetComponent<ParticleSystem>().Play();
 				if (hit.transform.tag == "Player")
 				{
-					hit.transform.gameObject.GetComponent<PlayerNetworkManager>().isDead = true;
+					hit.transform.GetComponent<PhotonView>().RPC ("DamageDelt", PhotonTargets.All, damage);
 				}
 			}  
 		}

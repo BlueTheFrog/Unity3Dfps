@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RotatePlatform : MonoBehaviour {
+public class RotatePlatform : MonoBehaviour
+{
+
+	public float speed;
 
 	// Use this for initialization
 	void Start () {
@@ -9,8 +12,8 @@ public class RotatePlatform : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	    transform.eulerAngles = new Vector3 (0f, 0f, tranform.eulerAngles.z);
-	
+	void Update ()
+	{
+		transform.rotation = Quaternion.Euler (0f, 0f, transform.rotation.eulerAngles.z + speed * Time.deltaTime);	
 	}
 }
