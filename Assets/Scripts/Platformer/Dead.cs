@@ -6,7 +6,7 @@ public class Dead : MonoBehaviour
 
 	public GameObject player;
 
-	private Vector3 playerSpawn;
+	public Vector3 playerSpawn;
 
 	// Use this for initialization
 	void Start ()
