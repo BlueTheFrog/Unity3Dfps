@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/FPS.unity
   - enabled: 1
     path: Assets/Scenes/Platformer.unity
+  - enabled: 1
+    path: Assets/Scenes/CircleClicker.unity
