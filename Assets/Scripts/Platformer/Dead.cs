@@ -19,9 +19,12 @@ public class Dead : MonoBehaviour
 	
 	}
 
-	void OnTriggerEnter ()
+	void OnTriggerEnter (Collider other)
 	{
-		player.transform.position = playerSpawn;
+		if (other.transform.tag == "Player")
+		{
+		    player.transform.position = playerSpawn;
+		}
 	}
 
 }
