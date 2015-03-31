@@ -17,7 +17,7 @@ public class Click : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-	
+        CPStext.GetComponent<Text>().text = "Circles Per Second: 0";	
 	}
 
 	void FixedUpdate ()
@@ -25,7 +25,7 @@ public class Click : MonoBehaviour
 		timer += Time.fixedDeltaTime;
 		if (timer > 1)
 		{
-			CPStext.GetComponent<Text> ().text = "CPS: 0";
+			CPStext.GetComponent<Text> ().text = "Circles Per Second: 0";
 		}
 	}
 

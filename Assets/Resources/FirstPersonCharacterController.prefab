@@ -1726,7 +1726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 152102}
-  isDead: 0
+  health: 100
   smoothing: 10
   mainCam: {fileID: 152026}
 --- !u!114 &11418224
@@ -1767,6 +1767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a76f515e24d1384da5d60929ae378cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 25
   player: {fileID: 152102}
   camC: {fileID: 2052108}
   camG: {fileID: 152026}
@@ -1794,8 +1795,6 @@ MonoBehaviour:
   stickToGroundForce: 10
   _gravityMultiplier: .125
   _mouseLook:
-    XSensitivity: 15
-    YSensitivity: 15
     MinimumX: -360
     MaximumX: 360
     MinimumY: -90

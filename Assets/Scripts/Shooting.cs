@@ -64,12 +64,15 @@ public class Shooting : MonoBehaviour
 			{
 			    camC.fieldOfView = 20;
 				viewCam.SetActive(false);
-				//player.GetComponent<UnitySampleAssets.Characters.FirstPerson.MouseLook>().XSensitivity = 1f;
+                UnitySampleAssets.Characters.FirstPerson.MouseLook.XSensitivity = UnitySampleAssets.Characters.FirstPerson.MouseLook.XSensitivity / 3.0f;
+                UnitySampleAssets.Characters.FirstPerson.MouseLook.YSensitivity = UnitySampleAssets.Characters.FirstPerson.MouseLook.YSensitivity / 3.0f;
 			}
 			else if (camC.fieldOfView == 20)
 			{
 				camC.fieldOfView = 60;
 				viewCam.SetActive(true);
+                UnitySampleAssets.Characters.FirstPerson.MouseLook.XSensitivity = UnitySampleAssets.Characters.FirstPerson.MouseLook.XSensitivity * 3.0f;
+                UnitySampleAssets.Characters.FirstPerson.MouseLook.YSensitivity = UnitySampleAssets.Characters.FirstPerson.MouseLook.YSensitivity * 3.0f;
 			}
 			RaycastHit hit;
 			if(Physics.Raycast(transform.position, transform.forward, out hit, 2.0f))
