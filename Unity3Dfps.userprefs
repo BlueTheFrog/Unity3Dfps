@@ -1,15 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Platformer\MovePlatform.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerNetworkManager.cs">
     <Files>
-      <File FileName="Unity3Dfps.sln" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Platformer\MovePlatform.cs" Line="23" Column="57" />
-      <File FileName="Assets\Scripts\Circle Clicker\Click.cs" Line="37" Column="60" />
-      <File FileName="Assets\Scripts\PlayerNetworkManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Shooting.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\NetworkManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Platformer\Finished.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Platformer\Dead.cs" Line="24" Column="29" />
+      <File FileName="Assets\Scripts\NetworkManager.cs" Line="20" Column="3" />
+      <File FileName="Assets\Scripts\Shooting.cs" Line="40" Column="55" />
+      <File FileName="Assets\Scripts\Circle Clicker\Click.cs" Line="41" Column="1" />
+      <File FileName="Assets\Scripts\PlayerNetworkManager.cs" Line="3" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

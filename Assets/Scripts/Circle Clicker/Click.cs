@@ -17,6 +17,7 @@ public class Click : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		Screen.showCursor = true;
         CPStext.GetComponent<Text>().text = "Circles Per Second: 0";	
 	}
 

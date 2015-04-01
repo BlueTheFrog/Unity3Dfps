@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerNetworkManager : Photon.MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 	public event Respawn RespawnMe;	
 
 	public GameObject player;
+	private GameObject healthText;
 	public int health = 100;
 
 	public float smoothing;
@@ -32,6 +34,7 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 
 	void Start ()
 	{
+		healthText = GameObject.Find ("Canvas/Health_Text");
 		if (photonView.isMine)
 		{
 			GetComponent<UnitySampleAssets.Characters.FirstPerson.FirstPersonController>().enabled = true;
@@ -78,6 +81,7 @@ public class PlayerNetworkManager : Photon.MonoBehaviour
 	public void DamageDelt (int damage)
 	{
 		health -= damage;
+		healthText.GetComponent<Text> ().text = health.ToString ();
 		if (health <= 0 && photonView.isMine)
 		{
 			Debug.Log(RespawnMe);

@@ -14,7 +14,7 @@ public class MovePlatform : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void FixedUpdate ()
 	{
 		NewLocation = transform.position;
 		DeltaHeight = Mathf.Sin (RunningTime + Time.deltaTime) - Mathf.Sin (RunningTime);

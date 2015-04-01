@@ -8,6 +8,7 @@ public class Shooting : MonoBehaviour
 
 	private GameObject ammoText;
 	private GameObject clipText;
+	private GameObject healthText;
 
 	private GameObject gunImpactSmoke;
 	private GameObject muzzleFlash;
@@ -36,7 +37,7 @@ public class Shooting : MonoBehaviour
 
 	void Awake ()
 	{
-		//pManager = player.GetComponent<PlayerNetworkManager> ();
+		healthText = GameObject.Find ("Canvas/Health_Text");
 		clipText = GameObject.Find ("Canvas/Clip_Text");
 		ammoText = GameObject.Find ("Canvas/Ammo_Text");
 		gunImpactSmoke = GameObject.Find ("Particle Systems/Gun Impact Smoke");
@@ -79,13 +80,16 @@ public class Shooting : MonoBehaviour
 			{
 				if (hit.transform.name == "Arcade Machine")
 				{
+					UnitySampleAssets.Characters.FirstPerson.MouseLook.XSensitivity = 8f;
+					UnitySampleAssets.Characters.FirstPerson.MouseLook.YSensitivity = 8f;
+					PhotonNetwork.Disconnect();
 					Application.LoadLevel("Platformer");
 				}
 			}
 		}
 		Shoot();
 	}
-	
+
 	void Shoot ()
 	{
 		// Delay between shots or reloading
