@@ -25,16 +25,7 @@ public class NetworkManager : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		checkKeysPressed();
 		connectionText.text = PhotonNetwork.connectionStateDetailed.ToString ();
-	}
-
-	void checkKeysPressed ()
-	{
-		if (Input.GetKeyDown ("escape"))
-		{
-			Application.Quit ();
-		}
 	}
 
 	void OnJoinedLobby ()
